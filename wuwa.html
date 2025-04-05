@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Waves</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('download (2).jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 70px;
+    margin-right: 15px;
+}
+        h1 {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1000px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        .image-container {
+            flex: 1;
+            padding-right: 20px;
+            align-self: flex-start;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .content-container {
+            flex: 2;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: orange;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Game Review Hub Logo" style="height: 50px; margin-right: 15px;">
+        <h1>Game Review Hub</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="hqdefault.jpg" alt="Wuthering Waves">
+        </div>
+        <div class="content-container">
+            <p>Wuthering Waves is an upcoming open-world action RPG developed by Kuro Game. Set in a vast, post-apocalyptic world filled with deep lore and high-paced combat mechanics, this game offers players the freedom to explore, battle, and uncover hidden secrets. With dynamic character abilities and a strong emphasis on narrative-driven gameplay, Wuthering Waves seeks to deliver an immersive experience for both casual players and hardcore RPG fans alike.</p>
+            <p>Players will traverse a beautifully crafted environment filled with towering ruins, mysterious landscapes, and a variety of enemies to defeat. The combat system integrates smooth, action-oriented mechanics where players can string together powerful combos and utilize unique abilities to overcome challenges.</p>
+            <p>With an extensive character progression system, players can customize their heroes and unlock new skills, weapons, and companions to aid them in their journey. The game promises engaging quests, stunning visuals, and a gripping storyline that will keep players hooked for hours.</p>
+            <p>Visit the official site: <a href="https://wutheringwaves.kurogames.com/en/main" target="_blank">Wuthering Waves Official</a></p>
+            <div class="video-container">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/5mP4IdmzYJs" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Wuthering Waves | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
